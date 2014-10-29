@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{overflow:hidden; overflow-y:scroll;}
+
+.page-wrap{ width:100%; position:relative; z-index:100;}
+.header{ position:fixed; left:0; top:0; width:270px; overflow:hidden; z-index:101; color:#fff;}
+.header-float-bg{ width:320px; position:absolute; height:100%; background:url(/static/image/header_pic_bg2.jpg) no-repeat left top; z-index:102;}
+.header-float-bg-cover{ width:300px; height:100%; background-color:#0d3535; opacity:.62; position:absolute; left:0; top:0; z-index:103;} 
+.header .bd{ position:absolute; left:0; top:0; z-index:104; height:100%;}
+.header .bd .content{ padding:40px 30px 20px 15px;}
+.header .bd h1 a{ display:block; width:169px; height:75px; line-height:20em; overflow:hidden; opacity:.95; transition:opacity .5s}
+.header .bd h1 a:hover{opacity:1;}
+.header .bd .sign{ margin-top:16px; width:65px; height:12px; background:url(/static/image/sign.png);}  
+.header .bd .dots{ width:241px; height:13px; background:url(/static/image/dots.png); margin:10px 0 8px 0;}
+.header .bd  .intro a{color:#fff;opacity:.6; transition:.5s;}
+.header .bd  .intro a:hover{opacity:1;}
+.header .bd .list{ margin-top:24px;} 
+.header .bd .list dt{ margin-bottom:16px;}
+.header .bd .list ul{ float:left;}
+.header .bd .list li{ float:left; position:relative; margin:0 12px 12px 0; }
+.header .bd .list img{ border-radius:100%; opacity:.65; transition:opacity .5s}
+.header .bd .list img:hover{ opacity:1;}
+/*.header .bd .list li .cover{ position:absolute;top:0px; border-radius:100%; width:36px; height:36px; background-color:#000; opacity:.25; cursor:pointer; transition:opacity .5s;}
+.header .bd .list li:hover .cover{opacity:0;}*/
+.header .bd .ft{ position:absolute; left:0; bottom:0; width:270px;  height:239px; repeat-x left top; color:#fff; z-index:105; padding:0px 15px;}
+/*.header .bd .ft .frilinks{ font-size:0; margin-top:112px;}
+.header .bd .ft .frilinks a{ display:inline-block; margin-right:16px;}*/
+.header .bd .ft .dots{ width:241px; height:13px; background:url(/static/image/dots.png); margin:160px 0 8px 0;}
+.header .bd .ft .info{ color:#fff; opacity:.5; display:block;margin-top:10px;}  
+.header .bd .ft .QQ{ opacity:.5;}
+.header .bd .ft .weibo{ color:#fff; opacity:.5; line-height:28px; left top; transition:opacity .5s;}
+.header .bd .ft .weibo:hover{ opacity:1;} 
+  
+.section{ margin-left:270px; background:url(/static/image/pattern.png) repeat left top; padding-bottom:30px;}
+.section .main-list{ background:url(/static/image/border_cover.png) repeat-y left top; padding:40px 0 0 76px;}
+.section .main-list ul{ float:left;}
+.section .main-list li{ width:210px; float:left; margin:0 50px 40px 0; padding:25px 25px 32px 25px; background-color:#fff; position:relative; box-shadow:0px 1px #ddd;}
+.section .main-list ul .ad{ width:210px; float:left; margin:0 50px 40px 0; padding:25px 25px 22px 25px; background-color:#fff; position:relative; box-shadow:0px 1px #ddd}
+.section .main-list li .ad-title{font-size:14px;}
+.section .main-list li .links{ margin-top:12px;}
+.section .main-list .cover{ position:absolute; left:25px; top:25px; width:280px; height:210px; background-color:#fff; opacity:0; cursor:pointer; transition:opacity .5s;}
+.section .main-list .user-hd{ line-height:20px; overflow:hidden; position:relative; margin:8px 0;}
+.section .main-list .user-hd img{ border-radius:100%; float:left;}
+.section .main-list .user-hd a{ float:left; color:#aaa; margin-right:6px;} 
+.section .main-list li:hover{box-shadow:0px 1px 3px #ddd;}
+.section .main-list li:hover .cover{ opacity:.42;}
+.section .main-list .title{ color:#1a0606; font-size:14px; width:210px; line-height:20px; height:20px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+
+
+ 
+  
+/*.header-border-cover{ width:8px; height:100%; background:url(../imgs/border_cover.png) repeat-y left top; position:absolute; right:-8px; top:0; z-index:110;}*/
+
+
+.shadow{ display:none;}
+.cards .bd{ width:300px; padding:10px; }
+.cards .bd-sub{ padding:10px 0;}
+.cards .bd-sub p{ height:20px; }
+.cards .bd-sub .figure{ font-size:12px; color:#999; margin:8px 0;}
+.cards .bd-sub .figure a{ color:#0090ff;}
+.cards p{ zoom:1; height:40px; position:relative; overflow:hidden; font-size:14px; }
+.cards .info{ margin-top:3px;}
+.cards .info a{ float:left; color:#999;}
+.cards .info span{ float:right; color:#ffc272;}
+.cards .funcs{ font-size:0; margin-top: 20px;}
+.cards .funcs a{ font-size:12px; color:#999; margin-right:18px; padding-left: 22px;} 
+.cards .funcs a:hover{ color:#d94c2e;}
+.cards .funcs .like{ background: url(/static/image/icon_like.png) no-repeat left center;}
+.cards .funcs .comment{ background: url(/static/image/icon_comment.png) no-repeat left center;}
+.cards .funcs .pop{ background: url(/static/image/icon_pop.png) no-repeat left center;}
+
+
+

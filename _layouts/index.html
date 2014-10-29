@@ -39,29 +39,18 @@
         </section>
         
         <div class="article-list">
-          
-          
+          {% for post in site.posts %}
+          {% assign paths = post.id | split: '/' %}
           <div class="article">
-              <div class="cover"><a href="/2014/10/30/new2/" target="_blank"><img src="http://quanziio.qiniudn.com/2193685c6169336c1ee068ceeb0a4a6c/cover" /></a></div>
+              <div class="cover"><a href="{{ post.url }}" target="_blank"><img src="http://quanziio.qiniudn.com/{{ post.cover }}/cover" /></a></div>
               <div class="user-info">
-                  <a href="/2014/10/30/new2/">Rayi</a> write on 2014-10-29 07:50:32
+                  <a href="{{ post.url }}">{{ post.author }}</a> write on 2014-10-29 07:50:32
               </div>
               <div class="artile-info">
-                  <a href="/2014/10/30/new2/">Blogging Like a Hacker</a>
+                  <a href="{{ post.url }}">{{ post.title }}</a>
               </div>
           </div>
-          
-          
-          <div class="article">
-              <div class="cover"><a href="/2014/10/29/new/" target="_blank"><img src="http://quanziio.qiniudn.com/28b71fee19dcfa9d6ac52c8c58514a2a/cover" /></a></div>
-              <div class="user-info">
-                  <a href="/2014/10/29/new/">Rayi</a> write on 2014-10-29 07:50:32
-              </div>
-              <div class="artile-info">
-                  <a href="/2014/10/29/new/">Blogging Like a Hacker</a>
-              </div>
-          </div>
-          
+          {% endfor %}
           
         </div>
 

@@ -1,18 +1,88 @@
 ---
 page_id: articles
 ---
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+        <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+        <link rel="icon" href="/favicon.ico">
+        <title>圈子__quanzi.io</title>
+        <link rel="stylesheet" href="/static/css/base.css"  />
+        <link rel="stylesheet" href="/static/css/font-awesome.css" />
+        <link rel="stylesheet" href="/static/css/themify-icons.css" />
+        <link rel="stylesheet" href="/static/css/timeline.css" />
+        <link rel="stylesheet" href="/static/css/quanzi.css" />
 
-<div class="container">
-    <article>
-        <div class="article-info">
-            <h1 class="title">{{ page.title }}</h1>
-            <div class="author">{{ page.author }} | {{ page.date | date_to_string }}</div>
+        <!--引入CSS-->
+        <link rel="stylesheet" type="text/css" href="/static/css/webuploader.css">
+        
+    </head>
+    <body class="app">
+        <section class="layout">
+            <section class="main-content">
+                <div class="content-wrap">
+                  <div class="row">
+                      <div class="back-nav"></a>
+                          <a href="/"><i class="fa fa-arrow-circle-left"></i></a>
+                      </div>
+                      <div class="quanzi-info" style="background:#303c57 url(http://quanziio.qiniudn.com/70fabde6d3a9d72d2db96da87969bb57) repeat-x center 0; height:300px;">
+                          <h1><span>《{{ page.title }}》</span></h1>
+                          <p class="muted">{{ page.author | default: "Rayi"}} write on {{ page.date | date_to_string }}</p>
+                      </div>
+                  </div>
+                </div>
+            </section>
+        </section>
+
+        <div class="type">
+            <article>
+                {{ content }}
+            </article>
         </div>
-        {{page.tags}}
-        <div class="content">
-        {{ content }}
-        </div>
 
-    </article>
-
+<footer>
+  你所未看见的，我们都在看!
+</footer>
+<script type="text/template" id="modal-tpl">
+<div class="modal">
+  <div class="modal-dialog {! modalCls !}">
+    <div class="modal-content">
+      {$ if showHeader $}
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">{! title !}</h4>
+      </div>
+      {$ endif $}
+      <div class="modal-body">
+        {! content|raw !}
+      </div>
+      {$ if showFooter $}
+      <div class="modal-footer">
+        {$ if showBtns $}
+            <button type="button" class="btn btn-{! modalStatus !}" data-confirm="modal">{! confirmLabel !}</button>
+            {$ if showCancel $}
+            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+            {$ endif $}
+        {$ endif $}
+      </div>
+      {$ endif $}
+    </div>
+  </div>
 </div>
+</script>
+
+        <script src="/static/js/modernizr.js"></script>
+        <script src="/static/js/jquery-2.1.1.js"></script>
+        <script src="/static/js/swig.min.js"></script>
+        <script>
+            swig.setDefaults({ tagControls: ['{$', '$}'], varControls: ['{!', '!}']});
+        </script>
+        <script src="/static/js/base.js"></script>
+    </body>
+</html>

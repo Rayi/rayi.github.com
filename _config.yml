@@ -1,6 +1,14 @@
 highlighter: pygments
 github: https://github.com/Rayi/
-
 permalink: pretty
 kramdown:
   input: GFM
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "index"
+      author: "Rayi"
+      cover: "2193685c6169336c1ee068ceeb0a4a6c"

@@ -1,0 +1,43 @@
+
+/*针对特定的Ie浏览器写特定的样式，一般情况下写的样式要让页面在常见的
+浏览器中正常显示，如果存在实在无法解决的问题，就只能用这种条件注释的写法了
+<!--[if IE 6]>
+<link rel="" href="" type="">
+<![endif]-->
+*/
+
+/*缺省值begin*/
+
+html{ margin:0px; padding:0px;}
+body{ margin:0px; padding:0px; font-size:12px; font-family:微软雅黑,Microsoft YaHei,Arial,Tahoma, Geneva,"宋体", sans-serif; color:#000;}
+a{ text-decoration:none; color:#333; outline:none;}
+a:hover{ text-decoration:none;color:#d94c2e;}
+a:active, a:visited{ outline:none;}
+blockquote{margin:0;padding:0;}
+p,ul,li,form,h1,h2,h3,h4,h5,h6,dl,dt,dd,img,div,table,td,th,input,textarea{ margin:0px; padding:0px;}
+input,textarea{ outline:none; font-size:12px;}
+table,td{ border-collapse:collapse;}
+ul,li,dl,dt,dd,ol{ list-style:none;}
+.yahei{font-family:微软雅黑,Microsoft YaHei,Arial,"宋体";}
+.wrap{ width:1056px; margin:0 auto;}
+img{ border:0 none;overflow:hidden;}
+em,i{font-style:normal;}
+.ma{margin-left:auto; margin-right:auto;}
+
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+
+.pr{position:relative;}.pa{position:absolute;}
+.fl{float:left;}.fr{float:right;}
+.di{display:inline;}.db{display:block;}
+
+/*根据网站风格和规模可以继续定义一些通用的样式，比如颜色...,
+为了便于维护和修改，HTML元素的class最好不要超过五个。
+*/
+.f12{font-size:12px;}.f14{font-size:14px;}.c9{color:#999;}
+.fwn{font-weight:normal;}.fwb{font-weight:bold;}.c609973{color:#609973;}
+
+.mt19{margin-top:19px;}
+.mrb15{margin:0 15px 15px 0;}.mb12{margin:0 0 12px 0;}.mb15{margin:0 0 15px 0;}.mb20{margin:0 0 20px 0;}
+.w350{width:350px;}.w358{width:358px;}.w239{width:239px;}.w721{width:721px;}.w723{width:723px;}
+
