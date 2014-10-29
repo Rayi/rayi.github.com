@@ -1,0 +1,6 @@
+highlighter: pygments
+github: https://github.com/Rayi/
+
+permalink: pretty
+kramdown:
+  input: GFM
