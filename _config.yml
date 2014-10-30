@@ -17,6 +17,6 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "index"
+      layout: "post"
       author: "Rayi"
       cover: "5cd408020e7d67378fd876e08b3bd22b"
