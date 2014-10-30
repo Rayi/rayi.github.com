@@ -21,7 +21,7 @@
         <section class="layout">
             <section class="main-content">
                 <div class="content-wrap">
-                  <div class="row">
+                  <div class="wrap-row">
                       <div class="back-nav"></a>
                           <a href="{{site.github.owner_url}}"><i class="fa fa-arrow-circle-left"></i></a>
                       </div>
@@ -37,7 +37,7 @@
                 </div>
             </section>
         </section>
-        
+        {{site.github}}
         <div class="article-list">
           {% for post in site.posts %}
           {% assign paths = post.id | split: '/' %}
