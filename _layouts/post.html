@@ -70,43 +70,21 @@ page_id: articles
 
 
 
-<footer>
-  你所未看见的，我们都在看!
-</footer>
-<script type="text/template" id="modal-tpl">
-<div class="modal">
-  <div class="modal-dialog {! modalCls !}">
-    <div class="modal-content">
-      {$ if showHeader $}
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title">{! title !}</h4>
-      </div>
-      {$ endif $}
-      <div class="modal-body">
-        {! content|raw !}
-      </div>
-      {$ if showFooter $}
-      <div class="modal-footer">
-        {$ if showBtns $}
-            <button type="button" class="btn btn-{! modalStatus !}" data-confirm="modal">{! confirmLabel !}</button>
-            {$ if showCancel $}
-            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-            {$ endif $}
-        {$ endif $}
-      </div>
-      {$ endif $}
-    </div>
-  </div>
-</div>
-</script>
+        <footer>
+          你所未看见的，我们都在看!
+        </footer>
 
         <script src="/static/js/modernizr.js"></script>
         <script src="/static/js/jquery-2.1.1.js"></script>
-        <script src="/static/js/swig.min.js"></script>
         <script>
-            swig.setDefaults({ tagControls: ['{$', '$}'], varControls: ['{!', '!}']});
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "//hm.baidu.com/hm.js?92214031d5dd4881b12f80643bb5da16";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
         </script>
-        <script src="/static/js/base.js"></script>
+
     </body>
 </html>
