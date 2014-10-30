@@ -33,7 +33,7 @@ page_id: articles
                       </div>
                       <div class="quanzi-info" style="background:#303c57 url(http://quanziio.qiniudn.com/{{page.banner}}) repeat-x center 0; height:300px;">
                           <h1><span>《{{ page.title }}》</span></h1>
-                          <p class="muted">{{ page.author | default: "Rayi"}} write on {{ page.date | date: "%Y-%m-%d" }}</p>
+                          <p class="muted">{{ page.author | default: "Rayi"}}  {{ page.date | date: "%Y-%m-%d" }}</p>
                           <p class="quanzi-user-actions">
                               <a href="{{site.github}}" class="btn" target="_blank"><i class="fa fa-github"></i> Follow me</a> 
                               <a href="http://weibo.com/measy" class="btn"><i class="fa fa-weibo"></i> 微博关注</a>
@@ -47,8 +47,28 @@ page_id: articles
         <div class="type">
             <article>
                 {{ content }}
+
+                <div id="SOHUCS"></div>
+                <script>
+                  (function(){
+                    var appid = 'cyrh6hKK8',
+                    conf = 'prod_132b7a88e8c15d25da4fb94f3e5b70b3';
+                    var doc = document,
+                    s = doc.createElement('script'),
+                    h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+                    s.type = 'text/javascript';
+                    s.charset = 'utf-8';
+                    s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+                    h.insertBefore(s,h.firstChild);
+                    window.SCS_NO_IFRAME = true;
+                  })()
+                </script>
             </article>
+            <!--高速版，加载速度快，使用前需测试页面的兼容性-->
+            
         </div>
+
+
 
 <footer>
   你所未看见的，我们都在看!
