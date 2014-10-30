@@ -21,3 +21,12 @@ defaults:
       author: "Rayi"
       banner: "http://quanziio.qiniudn.com/b69b5cad275244e8d9a56236358a4739"
       cover: "http://quanziio.qiniudn.com/5cd408020e7d67378fd876e08b3bd22b/cover"
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      layout: "post"
+      author: "Rayi"
+      banner: "http://quanziio.qiniudn.com/b69b5cad275244e8d9a56236358a4739"
+      cover: "http://quanziio.qiniudn.com/5cd408020e7d67378fd876e08b3bd22b/cover"
