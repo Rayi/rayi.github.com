@@ -33,7 +33,7 @@ page_id: articles
                       </div>
                       <div class="quanzi-info" style="background:#303c57 url(http://quanziio.qiniudn.com/70fabde6d3a9d72d2db96da87969bb57) repeat-x center 0; height:300px;">
                           <h1><span>《{{ page.title }}》</span></h1>
-                          <p class="muted">{{ page.author | default: "Rayi"}} write on {{ page.date | date_to_string }}</p>
+                          <p class="muted">{{ page.author | default: "Rayi"}} write on {{ page.date | date: "%Y-%m-%d" }}</p>
                       </div>
                   </div>
                 </div>

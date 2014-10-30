@@ -1,6 +1,14 @@
 highlighter: pygments
 github: https://github.com/Rayi/
 permalink: pretty
+gems:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+sass:
+  sass_dir: _sass
+  style: :compressed
 kramdown:
   input: GFM
 defaults:
@@ -11,4 +19,4 @@ defaults:
     values:
       layout: "index"
       author: "Rayi"
-      cover: "2193685c6169336c1ee068ceeb0a4a6c"
+      cover: "5cd408020e7d67378fd876e08b3bd22b"
