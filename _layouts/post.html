@@ -31,7 +31,7 @@ page_id: articles
                       <div class="back-nav"></a>
                           <a href="/"><i class="fa fa-arrow-circle-left"></i></a>
                       </div>
-                      <div class="quanzi-info" style="background:#303c57 url(http://quanziio.qiniudn.com/{{page.banner}}) repeat-x center 0; height:300px;">
+                      <div class="quanzi-info" style="background:#303c57 url({{page.banner}}) repeat-x center 0; height:300px;">
                           <h1><span>《{{ page.title }}》</span></h1>
                           <p class="muted">{{ page.author | default: "Rayi"}}  {{ page.date | date: "%Y-%m-%d" }}</p>
                           <p class="quanzi-user-actions">

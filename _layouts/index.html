@@ -46,7 +46,7 @@
           {% for post in site.posts %}
           {% assign paths = post.id | split: '/' %}
           <div class="article">
-              <div class="cover"><a href="{{ post.url }}" target="_blank"><img src="http://quanziio.qiniudn.com/{{ post.cover }}/cover" /></a></div>
+              <div class="cover"><a href="{{ post.url }}" target="_blank"><img src="/images/covers/{{post.id|replace:'/', '-'|replace_first:'-', ''}}.png" onerror="this.src='{{ post.cover }}'" /></a></div>
               <div class="user-info">
                   <a href="{{ post.url }}">{{ post.author }}</a>  {{post.date|date: "%Y-%m-%d"}}
               </div>
