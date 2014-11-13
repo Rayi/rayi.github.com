@@ -13,7 +13,7 @@ title: 一入键门深似海
 
 找了一圈，本着节省的原则，在某猫下了一单 cherry 的黑轴键盘，27号下单的，本来以为29号怎么着也应该到了，结果MD到了29号一看。竟然是卖家未发货！！！
 
-![机械键盘高清无码照](/images/filco/cherry.jpg)
+![机械键盘高清无码照](http://rayi.me/images/filco/cherry.jpg)
 
 喂喂，这是搞什么，这个店铺是不准备继续开了么？！！ 
 
@@ -21,7 +21,7 @@ title: 一入键门深似海
 
 本来也打算继续去某东买同款的，但是被同事一顿忽悠后，发现 filco 的键盘貌似更合我心意。
 
-![机械键盘高清无码照](/images/filco/filco.jpg)
+![机械键盘高清无码照](http://rayi.me/images/filco/filco.jpg)
 
 精致的外表，时尚的布局，比起cherry来说显的不那么古板，但也贵了一倍。
 
@@ -29,15 +29,15 @@ title: 一入键门深似海
 
 果断献上高清无码清晰大图！！
 
-![机械键盘高清无码照](/images/filco/20141030125949.jpg)
+![机械键盘高清无码照](http://rayi.me/images/filco/20141030125949.jpg)
 
-![机械键盘高清无码照](/images/filco/20141030130004.jpg)
+![机械键盘高清无码照](http://rayi.me/images/filco/20141030130004.jpg)
 
-![机械键盘高清无码照](/images/filco/20141030130056.jpg)
+![机械键盘高清无码照](http://rayi.me/images/filco/20141030130056.jpg)
 
-![机械键盘高清无码照](/images/filco/20141030130125.jpg)
+![机械键盘高清无码照](http://rayi.me/images/filco/20141030130125.jpg)
 
-![机械键盘高清无码照](/images/filco/20141030130141.jpg)
+![机械键盘高清无码照](http://rayi.me/images/filco/20141030130141.jpg)
 
 神马，我说了这么久，你还不知道我买的哪款么！！！ 
 
