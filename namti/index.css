@@ -1,0 +1,64 @@
+html,body
+{
+	font-family: verdana,tahoma;
+	background-color: #152131;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+a img
+{
+	border: none;
+}
+.div_body
+{
+	width: 800px;
+	margin: 0 auto;
+}
+.div_head
+{
+	padding-top: 32px;
+	text-align: right;
+	height: 62px;
+}
+.div_head span
+{
+	display: block;
+	padding-top: 16px;
+	height: 20px;}
+.div_head span a img
+{
+	margin: 3px;
+}
+.div_head span a,.div_head_span a:link
+{
+	opacity: 0.5;
+}
+.div_head span a:hover
+{
+	opacity: 1;
+}
+.div_works img
+{
+	margin: 10px 0px 10px 0px;
+	display: block;
+	clear: both;
+	/*background-image:url("images/ani_loading.gif");
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-color: #2d3846;
+	*/
+	background-image: url("images/loading.gif");
+}
+
+.div_foot
+{
+	text-align: right;
+	font-size: 10px;
+	color: #5c646f;
+	letter-spacing: 1px;
+	padding: 10px 0px 20px 0px;
+}
